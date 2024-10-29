@@ -29,7 +29,7 @@ title: Homepage
 
 ## annex
 
-use `npx quartz sync` in vscode to 
+use `npx quartz sync` in vscode to sync 
 
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
