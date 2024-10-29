@@ -1,0 +1,6 @@
+- context: A slightly advanced yet core concept of [[Javascript]]. All of fullstack can be done without async. async gives huge functionality to JS
+- Javescript is a singlethreaded language, which means only one core is utilized for processing at any one time. To get around this, and to make sure the main process being run doesnt sit around idling while a sub process is running, there are inbuilt ways to explicitly ask the subprocess to be run on a seperate thread and to notify the main thread when the sub process is completed, so that its output can be utilized in the main thread. 
+- usecase example: if you have process A followed by B. And while js code is stuck executing A(eg reading a file from local), which might be something that is not utilizing the CPU to its fullest, but B cant run until A is done, and B is an expensive task that will actually take a long time to run, its inefficient to execute the js code on a single thread.
+
+> [!doubt]
+> - since we are not sure of runtime, how can we best know when the subprocess will be complete for our main thread to continue on its flow? or do we follow a logic graph of outputs available for process to run. 

@@ -1,0 +1,353 @@
+---
+tags: CFA 
+---
+
+
+
+## R19.Introduction to FSA
+Shareholder
+
+
+-   R20. [[Financial reporting standards]]
+    -   standards overview
+        -   objective of [[Financial reporting standards|FRA]]→provide information about the firm to investors and creditors needed for investment decision.
+        -   importance financial reporting standards
+        -   Standard setting bodies
+            -   role
+            -   regulatory authorities
+                -   establish and enforce reporting standards
+    - framework for financial reporting
+        - qualitative characteristics 
+            - relevance 
+            - faithful representation
+            - characteristics for enhancing these: comparability, verifiability, timeliness, and understandability
+        - required elements
+        - constraints and assumptions
+    -   General requirements for FS under IFRS
+        - required financial statements: [[Balance sheet]], [[Income statement]], [[Cash flow statement]], statement of changes in owner equity, explanatory notes
+        - general features for preparing Financial statements: Fair representation, going concern basis, accrual basis(except CFS), consistency, materiality, aggregation
+    -   Implications
+
+## 21. income statement
+-   income statement overview
+	-   income statement
+		-   Aliases
+			-   profit and loss statement
+			-   statement of earnings
+			-   statement of operations
+		-   the income statement and a statement of other comprehensive income can be presented separately or presented together as a single statement of comprehensive income
+		-   presented as either
+			-   income statement + statement of [[Other comprehensive income]]
+			-   single statement of comprehensive income
+		-   [[Other comprehensive income|OCI]] is typically not considered imp for valuation, but is imp for lenders
+	-   components of income statement
+		-   Revenues
+			-   Net revenues
+		-   Expenses
+			-   expenses include
+				-   Operating expenses
+				-   [[Cost of goods sold|COGS]]
+				-   Interest
+				-   Taxes
+			-   Grouping
+				-   grouping by Nature of expense ↔ eg. Presenting all depreciation expense from manufacturing and administration together in one line of the income statement
+				-   grouping by Function of expense ↔ eg. Combining all costs associated with manufacturing (e.g., raw materials, depreciation, labor, etc.) as [[Cost of goods sold|COGS]].
+-   Revenue recognition
+	-   five-step proces 5 step process:::
+		-   contract→ contract as an agreement between two or more parties that specifies their obligations and rights
+		-   performance obligation  promise to deliver a distinct good or service
+			-   two criteria for good/service distinct→
+				- The customer can benefit from the good or service on its own or combined with other resources that are readily available 
+				- The promise to transfer the good/service can be identified seperately from any other promises
+		-   transaction price→ amount a firm expects to receive from a customer in exchange for transferring a good or service to the customer
+		-   map transaction price to performance obligation
+		-   recognize revenue when obligation is fulfilled 
+			-   A firm should recognize revenue only when it is highly probable they will not have to reverse it.
+			-   For long-term contracts, revenue is recognized based on a firm’s progress toward completing a performance obligation
+	-   Lessons from examples
+		-   building a house eg
+			-   parts of the obligation cannot be seperated( in the case of this eg)
+			-   {{percentage of completion}} method to recognise revenue.
+			-   for variable considerations like performance bonusses, recognize them only if there is high probability that it will not be reversed.
+			-   Contract revision↔
+				-   consider contract revision an extension of existing contract if the good/service to be provided is not distinct(or cannot be seperated) from existing performance obligations
+					-   in such a case, again use percentage of completion method without changing revenue recognized previously.
+		-   travel agent vs airlines
+			-   travel agent recognises 1000₹ commission as revenue
+			-   airlines recognises 10000₹ as revenue and 9000₹ as expense.
+	-   [Capitalising Expenses](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/ksdFfQnRyM7hf8WSa)→some expenses are put in [Balance Sheet](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/Kk2eviDvqf6aRLmW8) as assets
+		-   {{for long-term contracts,}}[costs to secure the contract and certain other costs must be capitalized](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/3yvA7Tw5hjqsRSpfx){{ }}
+		-   [The effect of capitalizing these expenses is to decrease reportedexpenses on the income statement, increasing reported profitability during the contractperiod.](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/ukYKkwsCeQQoYpb49)an effect of capitalising expenses is to decrease reported expenses, thereby increase profitability
+	-   Required disclosures
+		-   [Contracts with customers by category](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/jwnCpf8QRMjQ7gqcr)
+		-   [Assets and liabilities related to contracts, including balances and changes](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/pb6XqkMcEDMny9GDe)
+		-   [Outstanding performance obligations and the transaction prices allocated to them](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/WGb3vYSQDv7u32FuS)
+		-   [Management judgments used to determine the amount and timing of revenue recognition, including any changes to those judgments.](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/owp4cf4beoxSWTzag)
+-   Expense recognition[EXPENSE RECOGNITION](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/BA5r5Hm7XAq3PKHzQ)
+	-   general
+		-   $netIncome=revenue-expenses$
+		-   [expenses are decreases in economic benefits during the accounting period in the form of outflows or depletions of assets or incurrence of liabilities that result in decreases in equity other than those relating to distributions to equity participants](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/Yyfq3Wa5GL4uBBCZk)
+		-   under {{accruaxl}} method of accounting, expense recognition is based on {{matching principle}}
+			-   matching principle→[expenses to generate revenue are recognized in the same period as the revenue](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/YdFArxCypP2DhuTsZ)
+	-   Applications
+		-   [Inventory Expense Recognition](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/b6XqSdn8JEaEZLmJA) — use different method based on different scenarios
+			-   methods to recognise inventory expense
+				-   Specific identification→if firm knows _exactly_ which items were sold and which are in inventory
+				-   First in First out(FIFO)↔inventory with limited shelf life
+					-   cost of inventory acquired first =[[Cost of goods sold|COGS]]
+					-   cost of inventory acquired recently = ending inventory
+				-   Last in First out(LIFO)↔inventory does not deteriorate.
+					-   cost of inventory acquired recently = cogs
+					-   cost of inventory acquired first = ending inventory cost
+					-   tax benefits
+						-   inflationary environment, LIFO results in highter cogs, ie, lower taxable income, ie lower income taxes.
+						-   LIFO is not allowed under IFRS
+				-   Weighted average cost
+					-   [The cost per unit is calculated by dividing cost of available goods by total units available, and this average cost is used to determine both cost of goods sold and ending inventory.](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/2SSyJtsBR6cuFocoA)
+				-   [%LOCAL_FILE%cOXhAZUzDpD4mIx-RSx7JPE7Ad3qB8IrVhlX4zIfFlti2RKA7SaV7YDDDBvQJbhlD1VIHEHlUb_EwEi42kehIAptLmc2pHiPflnI0Ea-O79K0dXzDI2fiDsj-vwrSE-b.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/a7TBtJQsobsQDB7y6)
+		-   Depreciation expense recognition
+			-   [depreciation (tangible assets), depletion (natural resources), or amortization (intangible assets)](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/xronDWB5DnqZEcxHb)
+			-   Straight line depreciation↔Equal amount of depreciation expense over assets life
+				-   [%LOCAL_FILE%Ir8-Qu6SfItHSdOW5IcAVvhZWfbVGhKmLubp28KtaExohiMLs-EZVfkBIKl-h9GoHlLgjPB4hekyudWTrtTY40FJy967ge3WKNE_QRukIVtMqo6DdZJzVomg845B1Sw8.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/GSF8XMK2HaTje7sNB)
+			-   Accelerated depreciation↔more depreciation expense in early years of asset life
+			-   Declining balance method(DB)↔constant rate of dep based on asset book value
+			-   Double declining balance(DDB)↔2 times SLM is applied.
+				-   dep ends once estimated residual value has been reached.
+				-   most common
+				-   did not understand this part[DB does not explicitly use the asset’s residual value in the calculations, but depreciation ends once the estimated residual value has been reached. If the asset is expected to have no residual value, the DB method will never fully depreciate it, so the DB method is typically changed to straight-line at some point in the asset’s life.](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/vsGRjSMBqyprNkvtD)
+		-   Amortization→allocation of cost of {{intangible asset}} over its useful life
+			-   intangible assets with $\infin $ life(eg goodwill) are not amortized
+				-   they are tested annually for impairment
+				-   if impaired, recognise impairment amount in Income statement
+		-   Bad debt expense & warranty expense[If a firm sells goods or services on credit or provides a warranty to the customer, the matching principle requires the firm to estimate bad debt expense and/or warranty expense](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/egDAEvPmcaNzAegan)
+	-   implications( general obs)
+		-   expense recognition requires estimation
+			-   analysts must consider this and reasons behind it.
+			-   compare doubtful particulars with peer firms
+	-   Non recurring items[Non-Recurring Items](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/e2dYutFjgnTWTL3vo)
+		-   [Discontinued Operations](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/gipDxspB8KcMqckfk)→[A discontinued operation is one that management has decided to dispose of, but either has not yet done so, or has disposed of in the current year after the operation had generated income or losse](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/HQYcMQPP2WdHZ3Ngp)s
+			-   cond for discontinued operation→its assets, ops,investing and financing must be physically and operationally distinct from firm
+			-   measurement date→date when plan for disposing is developed
+				-   [On the measurement date, the company will accrue any estimated loss during the phaseout period and any estimated loss on the sale of the business](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/psT5HKibo2MT3m3bj)
+				-   but expected gain cannot be reported until after sale.
+			-   phaseout period→time b/w measurement period and actual disposal date
+			-   Things to do wrt Income statement
+				-   income/loss from [Discontinued Operations](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/gipDxspB8KcMqckfk) reported seperately
+					-   [net of tax, after income from continuing operations](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/uhZnDPHtmqQ28cmYL)
+				-   Past IS must be restated, seperating [Discontinued Operations](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/gipDxspB8KcMqckfk) income/loss
+			-   Analytical implications
+				-   exclude discontinued operations when forecasting future earnings
+				-   ??[The actual event of discontinuing a business segment or selling assets may provide information about the future cash flows of the firm, however](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/N3xsxp2HapHKdQovH)
+		-   unusual or infrequent items
+			-   [unusual in nature or infrequent in occurrence](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/b5akEMPH5yXq5Q5yL)
+			-   included in income from continuing operations and are reported before tax
+			-   eg[%LOCAL_FILE%uuSLCuWIYJF4xTUPATgqmkGnQAikpJPZJFwH0FuYebpDeNWHPT2C7GfpmNh7K_GI8SLVUrGA7aGtsQ28XlCyCDIE_9Ri2qC0b8wLcjN5jrQLJVzCqOQCVxFvTdlRmlUy.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/8LrKJK6rrpnDQiEQM)
+			-   analytical implications→review weather to include when forecasting future operations
+	-   Changes in accounting policies and estimates[Changes in Accounting Policies and Estimates](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/YwD2v9Njt6jnHhKua)
+		-   Accounting changes
+			-   accounting policies
+				-   1.standard setting bodies sometimes issue change in accounting policy
+				-   2.firm may change which accounting policy it applies.
+				-   unless impractical, changes in accounting policies require [Retrospective Application](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/7FzJ6cBEMhLhtMp7f)
+				-   modified retrospective application→no need for restating prior-period statements, but beginning values fo affected accounts are adjusted for the cumulative effects of the change.
+					-   as an analyst, this doesnt mean much for you but the firm still has to retrospectively apply policy to their previous financials to find out current effect. Though older FS are not released.
+			-   changes in accounting estimates
+				-   generally due to change in management's judgement(usually due ot new information).
+					-   eg. changing asset life
+				-   these need [Prospective Application](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/TMoBkSKJXutBmcNsT)
+				-   Analyst implications↔
+					-   accounting estimate changes do not affect cash flow
+					-   review changes to determine future cash flow impact
+			-   prior-period adjustments→a correction of an accounting error made in prebious FS
+				-   requires [Retrospective Application](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/7FzJ6cBEMhLhtMp7f)
+				-   prior period results restated
+				-   disclosure of {{nature}} of any prior-period adjustment & its effect on {{net income}} is required
+				-   analyst implications
+					-   do not typically affect cash flow
+					-   review to see any indication of weakness in firm internal controls
+		-   [Retrospective Application](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/7FzJ6cBEMhLhtMp7f)→[any prior-period financial statements presented in a firm’s current financial statements must be restated, applying the new policy to those statements as well as future statement](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/EQzKZ7LWaDvDo7Xea)s
+			-   enhances comparability of financial statements over time
+		-   [Prospective Application](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/TMoBkSKJXutBmcNsT)↔[prior statements are not restated, and the new policies are applied only to future financial statements](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/4r6nJ7G5sXCpuQvYq)
+	-   operating vs non operating components of IS
+		-   reported seperately
+		-   for non-financial firm, non-operating transactions result from investment income & financing expenses
+			-   income from these transactions are not a part of normal business operations
+			-   interest expense is also independent of firm operations
+		-   for financial firms {{investment income}} and {{financing expenses}} are considered operating activities.
+-   [EPS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/offJ2yaMBZeTZrLit?aliasId=88zWDJwimeQheKMhP) and dilutive securities
+	-   [EPS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/offJ2yaMBZeTZrLit?aliasId=88zWDJwimeQheKMhP)→most commonly used corporate **profitability** {{**performance**}} **measure** for publicly traded firms.
+		-   [EPS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/offJ2yaMBZeTZrLit?aliasId=88zWDJwimeQheKMhP) is reported only for shares of {{ common stock }}
+	-   [Simple Capital Structure](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/p7qaixZvnbGRYetnQ)→contains no potentially dilutive shares
+		-   can contain only
+			-   common stock
+			-   non-convertible debt
+			-   non-convertible preferred stock
+		-   firms with [Simple Capital Structure](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/p7qaixZvnbGRYetnQ) only report basic EPS
+	-   [Complex Capital Structure](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/WqYdnKYzzmcFHZs8s)→contains **potentially** dilutive securities
+		-   potentially dilutive securities→bonds that **potentially** can be converted to common stock and therefore may dilute current shareholders' earnings at some point in the future
+		-   potentially dilutive security examples→options, warrants, convertible securities
+		-   firms with [Complex Capital Structure](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/WqYdnKYzzmcFHZs8s) must report both basic EPS and diluted EPS
+	-   [Basic EPS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/9ecrLt6aZZy7uX3rw)
+		-   [Basic EPS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/9ecrLt6aZZy7uX3rw) calculation does not consider effects of {{dilutive}} securities
+		-   [%LOCAL_FILE%KE7u5LkWvXk3K9jU9-M4PlVA4hDAKZRSqvmOuegqmVh0jIbrbK9Co_ylPQRMbDKzP-PlIa7a2RHRHGMzoI4ATa0vJusHHkUFewTJgiQnG-qqWRvL4qXI1aiXu6yiFKkk.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/o9hg2mwYxCBhEkcZc)
+		-   [Stock Dividend](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/6gi4oJ4mxPxrkRsLX)→ distribution of additional shares to each shareholder in an amount proportional to their current number of shares
+		-   [Stock Split](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/HDtjfXTQssJMJArDZ)→division of each old share into a specific number of new shares.
+		-   in both [Stock Dividend](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/6gi4oJ4mxPxrkRsLX) and [Stock Split](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/HDtjfXTQssJMJArDZ), {{ each shareholder's proportional ownership in company }}is unchanged. each s/h has more shares but same % of total so.
+		-   [Shares Outstanding](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C5wwCR52F8ayyrKt2)→company's stock currently held by all its shareholders, including _share blocks_ held by institutional investors and **restricted shares** owned by the company's officers and insiders
+	-   [Diluted EPS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/ew9o4xrSM5RAYcuEh) [Diluted EPS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/WxmkK6Hosqo63wSbh)
+
+
+
+
+## 22. [[Balance sheet|B/S]]
+-   Balance sheet is a snapshot of its financial and physical assets and its liabilities at a point in time
+	-   can be used to assess a firm’s liquidity, solvency, and ability to make distributions to shareholders
+-   general b/s info
+	-   elements of a balance sheet
+		-   assets→resources controlled as a result of past transactions that are expected to provide future economic benefits
+		-   liabilities→Obligations as a result of past events that are expected to require an outflow ofeconomic resources
+		-   equity→The owners’ residual interest in the assets after deducting the liabilities
+	-   limitations of balance Sheets in financial analysis
+		-   there are numerous valuation bases for different assets.
+		-   value may have changed since balance sheet date
+		-   there are a number of assets and liabilities that do not appear on the balance sheet but certainly have value
+	-   formats of balance sheet
+		-   [Classified b/s](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/m9PHwkmRjxRMPDcwF?aliasId=incW47ShPtha43tYK)→assets and liabilities are reported in current/noncurrent format
+			-   {{both IFRS and GAPP}} permit [Classified b/s](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/m9PHwkmRjxRMPDcwF?aliasId=incW47ShPtha43tYK)
+		-   [Liquidity Based Format b/s](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C29dNCYz7tdFD7oR7?aliasId=j23pFYjEmwEjWZytd)→assets are represented from top to bottom from most liquid to least liquid
+			-   {{only IFRS}} permits usage of [Liquidity Based Format b/s](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C29dNCYz7tdFD7oR7?aliasId=j23pFYjEmwEjWZytd)
+			-   [Liquidity Based Format b/s](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C29dNCYz7tdFD7oR7?aliasId=j23pFYjEmwEjWZytd) is frequently used in {{banking industry}}
+		
+-   current assets 
+-   current liabilities
+-   non current assets
+-   non-current liabilities
+	-   Long term financial liabilities
+	-   deferred tax liabilities
+-   intangible assets
+	-   Intangible assets↔non-monetary assets that lack physical substance
+	-   Identifiable Intangible Assets
+		-   what?→can be acquired separately or are the result of rights or privileges conveyed to their owner
+		-   examples?→patents, trademarks, copyrights
+		-   treatment
+			-   Under IFRS↔[Identifiable Intangible Assets](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/MWxtu4ZZYJhLeYAAS) that are purchased can be reported using cost model or revaluation model. revaluation model can only be used if active market for intangible good exists
+			-   Under GAPP↔only cost model is allowed
+	-   [Unidentifiable Intangible Assets](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/Zjx8tFhY9gwk8aE2x)
+		-   cannot be acquired separately and may have an unlimited life
+		-   typical example is goodwill
+	-   research and developmental costs
+		-   under GAPP↔both research and developmental costs are expensed
+		-   under IFRS→research costs **must** be expensed, but developmental costs can be capitalized.
+	-   intangible assets with finite and infinite life
+		-   finite lived intangible assets are amortized over their useful lives and tested for impairment annually
+		-   infinite life intangible assets are not amortized, but are tested for impairment annually
+	-   under IFRS and U.S. GAAP, all of the following should be expensed as incurred
+		-   startup and training costs
+		-   admin overhead
+		-   adv and promotion costs
+		-   relocation and reorg costs
+		-   termination costs
+	-   [Goodwill](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/wuj3RjbcFnphZJNrv)
+		-   what?→it is the excess of purchase price over the fair value of the identifiable net assets acquireed in a business acquisition
+		-   why→Acquirers often find more value in the company to be acquired than fair value. eg. human value, reputation, synergy with acquirer, etc
+		-   [Goodwill](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/wuj3RjbcFnphZJNrv) only created in purchase acquisition scenario. internally generated goodwill is expensed.
+		-   [Goodwill](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/wuj3RjbcFnphZJNrv) is not amortized, but tested annually for [Impairment](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/EKgsmetXKNDEsjKpv)
+			-   if impaired, goodwill is reduced and loss recognised
+			-   impairment loss does not affect cash flow, so analyst should remove corresponding entry's for comparability
+		-   Since goodwill is not amortized, firms can manipulate net income upward by allocating more of the acquisition price to goodwill and less to the identifiable assets, resulting in higher net income due to less depreciation and amortization expense.
+-   marketable securities
+	-   [%LOCAL_FILE%-qjpzpXDgYJjbZw-8ijVKMYsXVgs6VeaRN5An0N00K_KV-4bdRhOFFXMcVuxDMKOEDdZrY673Srtz0XTJQf0HkgrNJVlmiH2m3BeVsTq706z2wb8oWFKpUA7Od2Zu9JE.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/2KcyJSsY9CAmDcHcR)
+	-   there are significant differences in how securities are **classified** under IFRS and under U.S.GAAP.
+	-   [%LOCAL_FILE%YrKEtFjNOg3SQCVnPYEIKKkCFQOVUiLgOy8s3txUXZGeCXFSD-O5IcuJlXnGZiQkZsdxV916AdUwZF_nXa5527umtzonVUiwpK3FNexL87EzGEXXOVS8Qqv6iKa1ARLe.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/JZaGzJ32N83GyEHjz)
+-   shareholder's equity
+	-   some commonly used terms
+		-   owners equity→residual interest in assets that remains after subtracting entity's liabilities
+		-   contributed capital/issued capital→amount contibuted by equity shareholders
+		-   par value/face value of common stock
+			-   stated or legal value
+			-   the value of the stock when company issues it
+		-   when common shares are issued with par value, par value is reported in shockholder's equity. The total proceeds from issuing an equity security are the par value of the issued shares plus “additional paid-in capital.”
+		-   Shares
+			-   authorized shres
+			-   issued shares
+			-   outstanding shares
+			-   treasury stock→the shares that have been acquired by the firm but not yet retired
+				-   treasury stock has no voting rights and does not receive dividends
+			-   preferred stock→stock with rights and privileges over common stock
+				-   privilages eg
+					-   dividends at a specified rate
+					-   priority in case of liquidation
+				-   classified as debt or equity depending on terms
+					-   {{non-redeemable}} preferred stock is considered {{equity}}
+					-   preferred stock that calls for {{mandatory redemption in fixed amounts}} is considered {{financial liability}}
+		-   non-controlling interest/minority interest→minority [S/h](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/p5EdMt5NAhqbsdvf5) pro-rata share of net assets of subsidiary non owned wholly by parent
+		-   retained earnings–undistributed earnings (net income) of the firm since inception, the cumulative earnings that have not been paid out to shareholders as dividends
+	-   Accumulated OCI[Accumulated other comprehensive income](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/LsGKxJbr3Ao2oM6fY)
+	-   statement of changes in stockholders equity
+		-   summarizes all transactions that increase or decrease equity accounts for the period
+		-   reconciles beginning and ending balance of each equity account[apital stock, additional paid-in-capital, retained earnings, and accumulated other comprehensive income](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/dXR9ipfc4GhYJfqPJ)
+		-   discloses OCI components[unrealized gains and losses from available-for-sale securities, cash flow hedging derivatives, foreign currency translation, and adjustments for minimum pension liability](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/SAv7AoW4td3Mx8yue)
+		-   [%LOCAL_FILE%6HtMqnb6TDWbXI0ovDMHuQO2bBzijGCr460DgPv1BkJiV1JHFvNrXBx3X44jklWe_Wt2pN-srKF-XrVJjCOTwQFlCfFaJyFns3bi0Z4wdJBDv9oZL3HtDelE9ZAZ6WHG.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/9Jqa7QbT6XD25WcAs)sample statement
+	-   common size balance sheet
+		-   expresses each item of the balance sheet as a percentage of{{ total assets }}
+		-   time series analysis→comparison over time
+		-   cross-sectional analysis→comparison across firms
+		-   ratios also should be compared using common size
+-   [Liquidity Ratios](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/KYYpN94r2opoWZNcC) –measure the firm’s ability to satisfy its short-term obligations as they come due
+	-   [%LOCAL_FILE%l03snqIn90MTV6XYw7no1Z6cTuU64OC_GvBozH4cI5A6ZkjJNuIbKjzj88RU9TBwDr9UUOh_Xznczg7aausnLLM4YFIblkPBeU1rqps6KJAos_sBzwq97Cjidx48kuFZ.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/ApYZJjA6NjTc4dyFH)
+	-   quick ratio is more conservative than current ratio and cash ratio is more conservative than quick
+-   [Solvency Ratios](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/JY8BTu6DXZ3kRWc3f) –measure the firm’s ability to satisfy its long-term obligations.
+	-   [%LOCAL_FILE%TBy4q0DYVH5vRgVBMVrx5ZYCc7JLoY522IpO8hawOBdKNE7wTP_85VokXW8FVDFfzotlEjHBGx3ginFM99HlveMwwpavwe8Eu-VUIyxe0TkOoy-JjOPRMsXMZg2hZFSV.png](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/r5LekqHq2S6ALq5Zx)
+	-   read more about how to view these ratios
+-   both [Liquidity Ratios](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/KYYpN94r2opoWZNcC) and [Solvency Ratios](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/JY8BTu6DXZ3kRWc3f) need to be considered collectively( within each segment)
+-   limitations of balance sheet ratio analysis[limitations of balance sheet ratio analysis](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/HCeek7pedbEGDMaN9)
+
+
+
+## R23. Statement of cash flows
+-   intro
+	-   income statement is based on accrual principle, so net income is not a good representation of cash generated from operations
+	-   [SCF](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C4dY2MdnSZoM8PCAj?aliasId=DoAfRN2t9dr8ddSzt) is important for analysing firm's activities and prospects.
+	-   [SCF](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C4dY2MdnSZoM8PCAj?aliasId=DoAfRN2t9dr8ddSzt) [provides the following](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/eLrNk49oqnCcaymD3) information, with which analyst can [determine whether](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/mZK62bPd2XzpJPFPJ)
+		-   information provided
+			-   cash receipts & cash payments,
+			-   firm activities(operating, investing, financing)
+			-   understanding of impact of accrual accounting events on cash flows
+		-   determine whether
+			-   cash generated is enough to sustain business and pay off debt
+			-   weather additional financing is needed
+			-   unexpected obligations can be met
+			-   firm has enough free cash to take advantage of business opportunities that may crop up.
+	-   items on [SCF](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C4dY2MdnSZoM8PCAj?aliasId=DoAfRN2t9dr8ddSzt) come from [I/S](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/T6dvsoiCp2u3xuSLz?aliasId=k8xytCh8LbjRuxPn9) items and changes in [BS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/o2wpgERoRfcxMQMcY?aliasId=LQcjnp33zjEm4645u) accounts
+	-   items on [SCF](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C4dY2MdnSZoM8PCAj?aliasId=DoAfRN2t9dr8ddSzt) are classified on the basis of **cash flow**(inflows and outflows of cash) **from**
+		-   operating activities—transactions that affect a firm’s net income
+		-   investing activities—acquisition or disposal of long-term assets and **certain** investments
+		-   financing activities—transactions affecting a firms capital structure
+	-   [U.S. GAAP Cash Flow Classifications](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/w2Pbro6khvQMD78uJ) [GAPP](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/2KnMt2EnJgjqt6DXp) cash flow classification
+		-   All taxes are under operating activities.
+	-   [IFRS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/MgzznG3DwZhoo2y6Z?aliasId=E36HcNaraYPfdiZjS) allows more flexibility.
+		-   Classification of interest and dividends received & paid — can be either operating or investing activities
+		-   income taxes are reported under {{operating activities}} unless expense is {{investing/financing related}}
+	-   Noncash investing and financing activities
+		-   not reported in [CFS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/C4dY2MdnSZoM8PCAj?aliasId=ceXSiQWaCfZfdtAc2) as they dont result in inflows or outflows of cash
+		-   Eg. exchanging debt for equity,financing from seller
+		-   Disclosed in footnote/exhibit
+-   2 methods of presenting cash flow statement(taken from 2 sections)
+	-   Both are accepted by [IFRS](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/MgzznG3DwZhoo2y6Z?aliasId=E36HcNaraYPfdiZjS) and [GAPP](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/2KnMt2EnJgjqt6DXp)
+	-   direct method
+		
+	-   indirect
+	-   comparison and arguments for each method
+	-   converting direct to indirect
+-   disclosure requirements
+-   Linking with income statement and [b/s](file:///Applications/RemNote.app/Contents/Resources/app.asar/build/doc/o2wpgERoRfcxMQMcY?aliasId=zbyuMuC55NbP78QFQ)
+-   reported and common size C
+-   free cash flow
+-   ratios
+
+
+
+
+transaction price→[amount a firm expects to receive from a customer in exchange for transferring a good or service to the custome](https://www.remnote.com/doc/NuNuGS2hpaeSavcp7)r
+
+

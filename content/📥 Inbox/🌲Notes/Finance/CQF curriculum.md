@@ -1,0 +1,579 @@
+---
+tags: curriculum, quant
+Source: https://www.cqf.com/about-cqf/program-structure/cqf-qualification
+
+---
+# primers
+
+## **Mathematics Primer**
+-  The CQF program begins with the Mathematics Primer, 12 hours of intensive training covering all the math preliminaries you'll need to know. The primer has been carefully designed to help you feel at home with the level of math involved in the core program.
+-   **Calculus:**
+-   Functions and Limits
+-   Differentiation and Integration
+-   Complex Numbers
+-   Functions of Several Variables
+-   **Differential Equations:**
+-   First Order Equations
+-   Second and Higher Order Equations
+-   **Probability:**
+-   Probability Distribution Function
+-   Cumulative Distribution
+-   Expectation Algebra
+-   Key Discrete and Continuous Distributions Including the Normal Distribution
+-   Central Limit Theorem
+-   **Statistics:**
+-   General Summary Statistics
+-   Maximum Likelihood Estimator
+-   Regression and Correlation
+-   **Linear Algebra:**
+-   Matrices and Vectors
+-   Systems of Linear Equations
+-   Eigenvalues and Eigenvectors
+
+## **Python Primer**
+  
+  The Python Primer introduces Scientific Computing in Python. Ideal if you’re new to coding in this setting, this primer includes eight hours of training and will present the essentials of Python language in a scientific framework. Enabling you to begin writing numerical code, you’ll start with screen output and learn to write simple programs for computational purposes.
+- The primer covers:
+	-   Python syntax: variables; basic data types; control flow; functions, file input/output
+	-   Mathematical applications of Python: standard mathematical functions in the mathematics library; operations on numerical arrays; linear algebra; statistics; data plot
+	-   Good programming practices, documenting code; debugging
+
+
+
+## **Finance Primer**
+
+This primer introduces the key concepts and different asset classes needed for the CQF program. Designed to benefit both those who are working in the industry and seeking a refresher, and those who have no experience within financial services but may be looking to move into this type of role, this ten-hour primer lays the foundations you’ll need to succeed.
+-   **The primer covers:**
+	-   Macro [[Economics]]
+	-   Capital Markets in Fundamentals
+	-   Introduction to Money Markets
+	-   Time Value of Money
+	-   Introduction to Equities
+	-   Introduction to Bonds
+	-   Introduction to Swaps
+	-   Introduction to FX
+	-   Introduction to Derivatives
+	-   Introduction to Commodities
+
+
+btw, CQF stands for Certificate in Quantitative Finance
+# level 1
+-   building blocks of quant finance :
+	-   In module one, we will introduce you to the rules of applied Itô calculus as a modeling framework. You will build tools using both stochastic calculus and martingale theory and learn how to use simple stochastic differential equations and their associated Fokker- Planck and Kolmogorov equations.
+	-   The Random Behavior of Assets
+		-   Different types of financial analysis
+		-   Examining time-series data to model returns
+		-   Random nature of prices
+		-   The need for probabilistic models
+		-   The Wiener process, a mathematical model of randomness
+		-   The lognormal random walk- The most important model for equities, currencies, commodities and indices
+	-   Binomial Model ^4a8d6c
+		-   A simple model for an asset price random walk
+		-   Delta hedging
+		-   No arbitrage
+		-   The basics of the binomial method for valuing options
+		-   Risk neutrality
+	-   PDEs and Transition Density Functions
+		-   Taylor series
+		-   A trinomial random walk
+		-   Transition density functions
+		-   Our first stochastic differential equation
+		-   Similarity reduction to solve partial differential equations
+		-   Fokker-Planck and Kolmogorov equations
+	-   Applied Stochastic Calculus 1
+		-   Moment Generating Function
+		-   Construction of Brownian Motion/Wiener Process
+		-   Functions of a stochastic variable and Itô’s Lemma
+		-   Applied Itô calculus
+		-   Stochastic Integration
+		-   The Itô Integral
+		-   Examples of popular Stochastic Differential Equations
+	-   Applied Stochastic Calculus 2
+		-   Extensions of Itô’s Lemma
+		-   Important Cases - Equities and Interest rates
+		-   Producing standardised Normal random variables
+		-   The steady state distribution
+	-   Martingales
+		-   Binomial Model extended
+		-   The Probabilistic System: sample space, filtration, measures
+		-   Conditional and unconditional expectation
+		-   Change of measure and Radon-Nikodym derivative
+		-   Martingales and Itô calculus
+		-   A detour to explore some further Ito calculus
+		-   Exponential martingales, Girsanov and change of measure
+- 
+-   quantitative risk and return
+	-   In module two, you will learn about the classical portfolio theory of Markowitz, the capital asset pricing model and recent developments of these theories. We will investigate quantitative risk and return, looking at econometric models such as the ARCH framework and risk management metrics such as VaR and how they are used in the industry.
+	-   **[[portfolio management]]**
+		-   Measuring risk and return
+		-   Benefits of diversification
+		-   Modern Portfolio Theory and the Capital Asset Pricing Model
+		-   The efficient frontier
+		-   Optimizing your portfolio
+		-   How to analyze portfolio performance
+		-   Alphas and Betas
+	-   **Fundamentals of Optimization and Application to Portfolio Selection**
+		-   Fundamentals of portfolio optimization
+		-   Formulation of optimization problems
+		-   Solving unconstrained problems using calculus
+		-   Kuhn-Tucker conditions
+		-   Derivation of CAPM
+	-   **Value at Risk and Expected Shortfall**
+		-   Measuring Risk
+		-   VaR and Stressed VaR
+		-   Expected Shortfall and Liquidity Horizons
+		-   Correlation Everywhere
+		-   Frontiers: Extreme Value Theory
+	-   **Asset Returns: Key, Empirical Stylised Facts**
+		-   Volatility clustering: the concept and the evidence
+		-   Properties of daily asset returns
+		-   Properties of high-frequency returns
+	-   **Volatility Models: The ARCH Framework**
+		-   Why ARCH models are popular?
+		-   The original GARCH model
+		-   What makes a model an ARCH model?
+		-   Asymmetric ARCH models
+		-   Econometric methods
+	-   **Risk Regulation and Basel III**
+		-   Definition of capital
+		-   Evolution of Basel
+		-   Basel III and market risk
+		-   Key provisions
+	-   **Collateral and Margins**
+		-   Expected Exposure (EE) profiles for various types of instruments
+		-   Types of Collateral
+		-   Calculation Initial and Variation Margins
+		-   Minimum transfer amount (MTA)
+		-   ISDA / CSA documentation
+-   equities and currencies
+	-   In module three, we will explore the importance of the Black- Scholes theory as a theoretical and practical pricing model which is built on the principles of delta hedging and no arbitrage. You will learn about the theory and results in the context of equities and currencies using different kinds of mathematics to make you familiar with techniques in current use.
+	-   **Black-Scholes Model**
+		-   The assumptions that go into the Black-Scholes equation
+		-   Foundations of options theory: delta hedging and no arbitrage
+		-   The Black-Scholes partial differential equation
+		-   Modifying the equation for commodity and currency options
+		-   The Black-Scholes formulae for calls, puts and simple digitals
+		-   The meaning and importance of the Greeks, delta, gamma, theta, vega and rho
+		-   American options and early exercise
+		-   Relationship between option values and expectations
+	-   **Martingale Theory - Applications to Option Pricing**
+		-   The Greeks in detail
+		-   Delta, gamma, theta, vega and rho
+		-   Higher-order Greeks
+		-   How traders use the Greeks
+	-   **Martingales and PDEs: Which, When and Why**
+		-   Computing the price of a derivative as an expectation
+		-   Girsanov's theorem and change of measures
+		-   The fundamental asset pricing formula
+		-   The Black-Scholes Formula
+		-   The Feynman-K_ac formula
+		-   Extensions to Black-Scholes: dividends and time-dependent parameters
+		-   Black's formula for options on futures
+	-   **Intro to Numerical Methods**
+	-   **Exotic Options**
+		-   Characterisation of exotic options
+		-   Time dependence (Bermudian options)
+		-   Path dependence and embedded decisions
+		-   Asian options
+	-   Understanding volatility
+		-   The many types of volatility
+		-   The market prices of options tells us about volatility
+		-   The term structure of volatility
+		-   Volatility skews and smiles
+		-   Volatility arbitrage: Should you hedge using implied or actual volatility?
+	-   **Further Numerical Methods**
+		-   Implicit finite-difference methods including Crank-Nicolson schemes
+		-   Douglas schemes
+		-   Richardson extrapolation
+		-   American-style exercise
+		-   Explicit finite-difference method for two-factor models
+		-   ADI and Hopscotch methods
+	-   **Derivatives Market Practice**
+		-   Option traders now and then
+		-   Put-Call Parity in early 1900
+		-   Options Arbitrage Between London and New York (Nelson 1904)
+		-   Delta Hedging
+		-   Arbitrage in early 1900
+		-   Fat-Tails in Price Data
+		-   Some of the Big Ideas in Finance
+		-   Dynamic Delta Hedging
+		-   Bates Jump-Diffusion
+	-   **Advanced Greeks**
+	-   **Advanced Volatility Modeling in Complete Markets**
+		-   The relationship between implied volatility and actual volatility in a deterministic world
+		-   The difference between 'random' and 'uncertain'
+		-   How to price contracts when volatility, interest rate and dividend are uncertain
+		-   Non-linear pricing equations
+		-   Optimal static hedging with traded options
+		-   How non-linear equations make a mockery of calibration
+
+
+
+# level 2
+-   **Module 4 - Data Science & [[Machine learning]] l**
+	-   In module four, you will be introduced to the latest data science and [[Machine learning]] techniques used in finance. Starting with a comprehensive overview of the topic, you will learn essential mathematical tools followed by a deep dive into the topic of supervised learning, including regression methods, k-nearest neighbors, support vector machines, ensemble methods and many more.
+	-   **An Introduction to [[Machine learning]] l**
+		-   What is mathematical modeling?
+		-   Classic modeling
+		-   How is [[Machine learning]] different?
+		-   Principal techniques for [[Machine learning]]
+	-   **An Introduction to [[Machine learning]] II**
+		-   Common [[Machine learning]] Jargon
+		-   Intro to Supervised Learning techniques
+		-   Intro to Unsupervised Learning techniques
+		-   Intro Reinforcement Learning techniques
+	-   **Math Toolbox for [[Machine learning]]**
+		-   Maximum Likelihood Estimation
+		-   Cost/Loss Function
+		-   Gradient Descent
+		-   Stochastic Gradient Descent
+		-   Bias and Variance
+		-   Lagrange Multipliers
+		-   Principal Component Analysis
+	-   **Supervised Learning – Regression Methods**
+		-   Linear Regression
+		-   Penalized Regressions: Lasso, Ridge and Elastic Net
+		-   Logistic, Softmax Regression
+	-   **Supervised Learning II**
+		-   K Nearest Neighbors
+		-   Naïve Bayes Classifier
+		-   Support Vector Machines
+	-   **Decision Trees and Ensemble Models**
+		-   Entropy minimisation and essential math
+		-   Splitting process and pruning criteria
+		-   Random Forests and Extreme Gradient Boosting
+		-   Bagging with Logit and Decision Tree alternatives (PD Case Study)
+	-   **Practical [[Machine learning]] Case Studies for Finance**
+		-   Macro Forecasting the S&P 500 and the Baa-Spread
+		-   Sharpe style regression methods for mutual funds
+		-   Natural Language Processing for Sentiment Analysis of ESG Company Reports
+-   **Module 5 - Data Science & [[Machine learning]] ll**
+	-   In module five, you will learn several more methods used for [[Machine learning]] in finance. Starting with unsupervised learning, deep learning and neural networks, we will move into natural language processing and reinforcement learning. You will study the theoretical framework, but more importantly, analyze practical case studies exploring how these techniques are used within finance.
+	-   **Unsupervised Learning**
+		-   K Means Clustering
+		-   Self Organizing Maps
+		-   Strengths and Weaknesses of HAC and SOM
+		-   Applications in Finance
+	-   **Unsupervised Learning II**
+		-   The curse of dimensionality
+		-   t-distributed Stochastic Neighbor Embedding (t-SNE)
+		-   Uniform Manifold Approximation and Projection (UMAP)
+		-   Autoencoders
+		-   Applications in Finance
+	-   **Deep Learning and Neural Networks**
+		-   What are Artificial Neural Networks and Deep Learning?
+		-   Perceptron Model, Backpropagation
+		-   Neural Network Architectures: Feedforward, Recurrent, Long Short Term Memory, Convolutional, Generative adversarial
+		-   Applications in Finance
+	-   **Natural Language Processing**
+		-   Pre Processing
+		-   Word vectorizations, Word2Vec
+		-   Deep Learning and NLP Tools
+		-   Application in Finance: sentiment change vs forward returns; S&P 500 trends in sentiment change; Earnings calls analysis.
+		-   Code examples
+	-   **Reinforcement Learning I**
+		-   Recap of multi-armed bandit
+		-   The exploitation-exploration trade-off
+		-   Exploration strategies: softmax versus epsilon-greedy
+		-   Risk-sensitivity in Reinforcement-learning
+	-   **Reinforcement Learning II**
+		-   Reinforcement Learning Case Study
+		-   Application of algo trading
+		-   Application in automated market making
+	-   **AI Based Algo Trading Strategies**
+		-   Basic Financial Data Analysis with Python and Pandas
+		-   Creating Features and Label Data from Financial Time Series for Market Prediction
+		-   Application of Classification Algorithms from Machine Learning to Predict Market Movements
+		-   Vectorized Backtesting of Algorithmic Trading Strategies based on the Predictions
+		-   Risk Analysis for the Algorithmic Trading Strategies
+	-   **Practical Machine Learning Case Studies for Finance**
+		-   Asset Price Behaviour and Volatility modeling
+		-   Empirical SDEs with estimated drift and diffusion functions
+		-   Generalized Stoch Vol models, learning dynamical models from data
+		-   Option pricing and hedging using Machine Learning
+		-   Model free pricing of exotic options
+		-   Robust Portfolio Optimization with Machine Learning
+		-   Denoising and Detoning covariance matrices
+		-   Nested Cluster Optimization
+	-   **Quantum Computing in Finance**
+		-   Define quantum computing
+		-   Review the three key ingredients of quantum computing: qubits, quantum gates and quantum circuits
+		-   Enumerate some of the applications of quantum computing in various fields
+		-   Construct a simple quantum circuit online using the IBM Quantum Experience
+		-   Learn how to write your own quantum program using the Python module Qiskit
+		-   Review some financial applications of quantum computing, in particular European Call Options
+-   **Module 6 - Fixed Income & Credit**
+	-   In the first part of module six, we will review the multitude of interest rate models used within the industry, focusing on the implementation and limitations of each model. In the second part, you will learn about credit and how credit risk models are used in quant finance, including structural, reduced form as well as copula models.
+	-   Fixed Income Products and Analysis
+		-   Names and properties of the basic and most important Fixed Income Products
+		-   Features commonly found in Fixed Income Products
+		-   Simple ways to analyze the market value of the instruments: yield, duration and convexity
+		-   How to construct yield curves and forward rates
+		-   Swaps
+		-   The relationship between swaps and zero-coupon bonds
+	-   Stochastic Interest Rate Modeling
+		-   Stochastic models for interest rates
+		-   How to derive the pricing equation for many Fixed Income Products
+		-   The structure of many popular one-factor interest rate models
+		-   The theoretical framework for multi-factor interest rate modeling
+		-   Popular two-factor models
+	-   Calibration and Data Analysis
+		-   How to choose time-dependent parameters in one-factor models so that today’s yield curve is an output of the model
+		-   The advantages and disadvantages of yield curve fitting
+		-   How to analyze short-term interest rates to determine the best model for the volatility and the real drift
+		-   How to analyze the slope of the yield curve to get information about the market price of risk
+	-   Probabilistic Methods for Interest Rates
+		-   The pricing of interest rate products on a probabilistic setting
+		-   The equivalent Martingale measures
+		-   The fundamental asset pricing formula for bonds
+		-   Application for popular interest rates models
+		-   The dynamics of bond prices
+		-   The forward measure
+		-   The fundamental asset pricing formula for derivatives on bonds
+	-   Heath Jarrow and Morton Model
+		-   The Heath, Jarrow & Morton (HJM) Forward Rate Model
+		-   The relationship between HJM and spot rate models
+		-   The advantages and disadvantages of the HJM approach
+		-   How to decompose the random movements of the forward rate curve into its principal components
+	-   The Libor Market Model
+		-   The Libor Market Model
+		-   The market view of the yield curve
+		-   Yield curve discretisation
+		-   Standard Libor market model dynamics
+		-   Numéraire and measure
+		-   The drift
+		-   Factor reduction
+	-   Further Monte Carlo
+		-   The Connection to statistics
+		-   The basic Monte Carlo algorithm, standard error and uniform variates
+		-   Non-uniform variates, efficiency ratio and yield
+		-   Co-dependence in multiple dimensions
+		-   Wiener Path Construction; Poisson Path Construction
+		-   Numerical integration for solving Sdes
+		-   Variance reduction techniques
+		-   Sensitivity calculations
+		-   Weighted Monte Carlo
+	-   Co-Integration for Trading
+		-   Multivariate time series analysis
+		-   Stationary and unit root
+		-   Vector Autoregression Model (VAR)
+		-   Co-integrating relationships and their rank
+		-   Vector Error Correction Model (VECM)
+		-   Reduced Rand Model (Regression) Estimation: Johansen Procedure
+		-   Stochastic modeling of autoregression: Orstein-Uhlenbeck Process
+		-   Statistical arbitrage using mean reversion
+	-   Credit Derivatives and Structural Models
+		-   Introduction to credit risk
+		-   Modelling credit risk
+		-   Basic structural models: Merton Model, Black and Cox Model
+		-   Advanced structural models
+	-   Credit Default Swaps
+		-   An introduction to CDS
+		-   Default modelling toolkit. Inhomogenous Poisson Process
+		-   CDS pricing: basic and advanced models
+		-   Bootstrapping intensity from CDS market quotes
+		-   Accruals and upfront premium in CDS pricing
+	-   Intensity Models
+		-   Modelling default by Poisson Process
+		-   Relationship between intensity and arrival time of default
+		-   Risky bond pricing: constant vs. stochastic hazard rate
+		-   Bond pricing with recovery
+		-   Theory of Affine Models
+		-   Affine Intensity Models and use of Feynman-Kac
+		-   Two-factor Affine Intensity Model example: Vasicek
+	-   CDO & Correlation Sensitivity
+		-   CDO market pricing and risk management
+		-   Loss function and CDO pricing equation
+		-   Motivation from loss distribution
+		-   What Is Copula Function?
+		-   Classification of copula functions
+		-   Simulating via Gaussian Copula
+		-   3 Gaussian Copula Factor Mode
+		-   The meaning of correlation. Intuition and timescale
+		-   Linear correlation and its misuse
+		-   Rank correlation
+		-   Correlation in exotic options
+		-   Uncertain correlation model for Mezzanine Tranche
+		-   Compound (implied) correlation in loss distribution
+	-   X-Valuation Adjustment
+		-   Historical development of OTC derivatives and Xva
+		-   Credit and Debt Value Adjustments (CVA and DVA)
+		-   Funding Value Adjustment (FVA)
+		-   Margin and Capital Value Adjustments (MVA and KVA)
+		-   Current market practice and application
+		-   Implementation of Counterparty Credit Valuation Adjustment (CVA)
+		-   Review the numerical methodologies currently used to quantify CVA in terms of exposure and Monte Carlo Simulation and the Libor Market Model
+		-   Illustrate this methodology as well as DVA, FVA and others
+-   **Advanced Electives**
+	-   Your advanced electives are the final element in our core program. These give you the opportunity to explore an area that’s most relevant or interesting to you. Select two electives from the extensive choice below to complete the CQF qualification. You will also have access to every advanced elective as part of the Lifelong Learning library.
+	-   **Advanced Portfolio Management**
+		-   As quantitative finance becomes more important in today’s financial markets, many buy-side firms are using quantitative techniques to improve their returns and better manage their client capital. This elective will look into the latest techniques used by the buy side in order to achieve these goals.
+		-   Perform a Dynamic Portfolio Optimization, Using Stochastic Control
+		-   Combine Views with Market Data Using Filtering to Determine the Necessary Parameters
+		-   Understand the Importance of Behavioral Biases and Be Able to Address Them
+		-   Understand the Implementation Issues
+		-   Develop New Insights Into Portfolio Risk Management
+		
+		-   Who is it for: Trading, fund management, asset management professionals
+	-   **Advanced [[Machine learning]]**
+		-   The Machine Learning (ML) elective will focus on the practical consideration of deep sequential modeling. From gaining an understanding of the Machine Learning framework to feature engineering and selection, the elective teaches essential skills required to build and tune Neural Networks.
+		-   Definition, Trends, and Landscape
+		-   Seven Steps to model an ML problem
+		-   Understanding Learning and Data Representation
+		-   Working of Learning Algorithms
+		-   Exploratory Data Analysis
+		-   Feature Engineering on Date - Time Data
+		-   Feature Engineering on Numeric Data
+		-   Addressing Class Imbalances
+		-   Overview of Feature Selection Methods
+		-   Feature Selection using Boruta Algorithm
+		-   Understanding Sequences
+		-   Sequence-data Generation
+		-   Getting started with TensorFlow and Keras API
+		-   Building & Training a Multivariate LSTM Model
+		-   Hyperparameter Optimization and Tuning
+		-   Evaluation of ML model
+	-   **Advanced Risk Management**
+		-   In this elective, we will explore some of the recent developments in Quantitative Risk Management.
+		-   We take as a point of departure the paradigms on how market risk is conceived and measured, both in the banking industry (Expected Shortfall) and under the new Basel regulatory frameworks (Fundamental Review of the Trading Book, New Minimum, Capital of Market Risk).
+		-   One of the consequences of these changes is the dramatic increase in the need for efficient and accurate computation of sensitivities. To cover this topic we will explore adjoint automatic differentiation (AAD) techniques from computational finance. We will see how, when compared to finite difference approximations, this approach can potentially reduce the computational cost by several orders of magnitude, with sensitivities accurate up to machine precision.
+		-   Review of New Developments on Market Risk Management and Measurement
+		-   Explore the Use of Extreme Value Theory (EVT)
+		-   Explore Adjoint Automatic Differentiation (AAD)
+		-   Who is it for: Risk management, trading, fund management professionals
+	-   **Advanced Volatility Modeling**
+		-   Volatility and being able to model volatility is a key element to any quant model.
+		-   This elective will look into the common techniques used to model volatility throughout the industry. It will provide the mathematics and numerical methods for solving problems in stochastic volatility.
+		-   TOPICS
+			-   Fourier Transforms
+			-   Functions of a Complex Variable
+			-   Stochastic Volatility
+			-   Jump Diffusion
+		-   Who is it for: Derivatives, structuring, trading, valuations, actuarial, model validation professionals
+	-   Algorithmic Trading I
+		-   The algorithmic trading elective is a Do-It-Yourself (DIY) guide that enables you to start your quantitative trading from scratch. From gaining an understanding of data science workflow to retrieving data using public/private APIs and storing it in SQL, the elective teaches essential skills required for different quant applications.
+		-   Introduction to Algorithmic Trading
+			-   Definitions, Trends and Landscape
+			-   Overview of Quant Workflow
+			-   Application and System Schematic
+			-   Building Blocks of a Quantitative System
+			-   Overview of Data API
+			-   Overview of Database
+		-   Opensource Data APIs
+			-   Getting Started with Data APIs
+			-   Getting Familiar with Data Formats
+			-   Handling Streaming Data
+			-   Data Retrieval and Storage
+		-   Getting Started with Interactive Brokers
+			-   Python Wrapper for IB API
+			-   Specifying Contracts
+			-   Retrieving Historical EOD and Intraday Data
+			-   Retrieving Real-Time Tick Data
+		-   Getting Started with Alpaca - Part 1
+			-   Handling Trade & Market Data API
+			-   Data Storage and Retrieval
+		-   Who is it for: Traders and quants who want to learn and use Python in trading.
+	-   Algorithmic Trading II
+		-   The algorithmic trading elective is a Do-It-Yourself (DIY) guide that enables you to start your quantitative trading from scratch. This elective is an extension of Algorithmic Trading I and covers some of the best software practices in developing quant applications including automatic data ingestion using CRON, backtesting, and live programmatic execution of trades using Alpaca and Zipline APIs.
+		
+		-   Getting started with Alpaca - Part II
+			-   Automated Data Ingestion
+			-   Data Updation Alerts using Gmail
+			-   Setting up Notification using Telegram
+		
+		-   Getting started with Zipline
+			-   Overview of Vectorized & Event-driven Backtesting
+			-   Alpaca Data Ingestion
+			-   Backtesting strategies with Alpaca ingested data
+		
+		-   Trading Live with Alpaca
+			-   Streaming Real-time Data
+			-   Live Trading with Alpaca
+			-   Trading Live using Zipline*
+		
+		-   Who is it for: Traders and quants who want to learn and use Python in trading.
+	-   Behavioral Finance for Quants
+		-   Behavioral finance and how human psychology affects our perception of the world, impacts our quantitative models and drives our financial decisions. This elective will equip delegates with tools to identify the key psychological pitfalls, use their mathematical skills to address these pitfalls and build better financial models.
+		
+		-   -   System 1 Vs System 2
+			-   Behavioural Biases; Heuristic Processes; Framing Effects and Group Processes
+			-   Loss Aversion Vs Risk Aversion; Loss Aversion; SP/A theory
+			-   Linearity and Nonlinearity
+			-   Game Theory
+		
+		-   Who is it for: Trading, Fund Management, Asset Management professionals
+	-   C++
+		-   Intended for those who are completely new to C++ or have very little exposure to the language.
+		-   Starting with the basics of simple input via keyboard and output to screen, this elective will work through a number of topics, finishing with simple OOP.
+		
+		-   TOPICS
+			-   Getting Started with the C++ Environment – First Program; Data Types; Simple Debugging
+			-   Control Flow and Formatting – Decision Making; File Management; Formatting Output
+			-   Functions – Writing User Defined Functions; Headers and Source Files
+			-   Intro to OOP – Simple Classes and Objects
+			-   Arrays and Strings
+		
+		-   Who is it for: IT, Quant analytics, Valuation, Derivatives, Model Valuation
+	-   Counterparty Credit Risk Modeling
+		-   Post-global financial crisis, counterparty credit risk and other related risks have become much more pronounced and need to be taken into account during the pricing and modeling stages. This elective will go through all the risks associated with the counterparty and how they are included in any modeling frameworks.
+		
+		-   -   Credit Risk to Credit Derivatives
+			-   Counterparty Credit Risk: CVA, DVA, FVA
+			-   Interest Rates for Counterparty Risk – Dynamic Models and Modeling
+			-   Interest Rate Swap CVA and Implementation of Dynamic Model
+		
+		-   Who is it for: Risk management, structuring, valuations, actuarial, model validation professionals
+	-   Fintech
+		-   Financial technology, also known as fintech, is an economic industry composed of companies that use technology to make financial services more efficient. This elective gives an insight into the financial technology revolution and the disruption, innovation and opportunity therein.
+		
+		-   -   Intro to and History of Fintech
+			-   Fintech – Breaking the Financial Services Value Chain
+			-   FinTech Hubs
+			-   Technology – Blockchain; Cryptocurrencies; Big Data 102; AI 102
+			-   Fintech Solutions
+			-   The Future of Fintech
+		
+		-   Who is it for: IT, quant analytics, trading, derivatives, valuation, Actuarial, Model Validation professionals
+	-   Numerical Methods
+		-   Any study in mathematics is incomplete without treatment of numerical analysis. When a closed form solution is not available or the problem to be solved is too complex to make amenable to explicit methods, a numerical/computational solution is sought. The resulting solution is an example of an approximate solution.
+		-   This one-day elective will present several basic numerical methods for solving some of the most classic problems in mathematics.
+		
+		-   TOPICS
+			-   Basic iteration and convergence
+			-   Bisection method
+			-   Newton-Raphson
+			-   Rates of convergence
+			-   Taylor series and the error term
+			-   Numerical differentiation
+			-   Trapezoidal method
+			-   Simpson’s rule
+			-   Error analysis
+			-   Euler
+			-   Runge-Kutta
+			-   Lagrange interpolation
+			-   Cubic splines
+			-   LU decomposition
+			-   SOR methods
+	-   R for Quant Finance
+		-   R is a powerful statistical programming language, with numerous tricks up its sleeves making it an ideal environment to code quant finance and data analytics applications.
+		
+		-   -   Install R and R Studio
+			-   Navigate R Studio to Unleash the Power of R and Stay Organised
+			-   Use Packages
+			-   Understand Data Structures and Data Types
+			-   Use Some of R's Most Useful Functions
+			-   Plot Charts
+			-   Read and Write Data Files
+			-   Write your Own Scripts and Code
+			-   Know how to Deal with some of R's "Loveable Quirks"
+		
+		-   Who is it for: IT, Quant Analytics, Valuation, Actuarial, Model Validation,Trading and Asset Management Professionals
+	-   Risk Budgeting: Risk-Based Approaches to Asset Allocation
+		-   Risk budgeting is the name of the last-generation approach to portfolio management.
+		-   Rather than solving the risk-return optimization problem as in the classic (Markowitz) approach, risk budgeting focuses on risk and its limits (budgets). This elective will focus on the quant aspects of risk budgeting and how it can be applied to portfolio management.
+		-   TOPICS
+			-   Portfolio Construction and Measurement
+			-   Value at Risk in Portfolio Management
+			-   Risk Budgeting in Theory
+			-   Risk Budgeting in Practice
+		-   Who is it for: Risk Management, Trading, Fund Management Professionals
