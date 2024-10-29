@@ -1,10 +1,7 @@
 ---
 title: Homepage
-draft: false
-tags:
-aliases:
-date:
 ---
+
 
 # Homepage
 
@@ -30,5 +27,9 @@ date:
 
 ### Motorcycles
 
-### 
+## annex
+
+use `npx quartz sync` in vscode to 
+
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
