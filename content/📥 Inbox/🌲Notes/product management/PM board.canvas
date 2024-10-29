@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"4ef2ffcf0e8ec039","type":"text","text":"Sources: \n1. Courses\n\t1. Insurgio\n\t    [[Insurgio 21 textbook|I-21 Textbook]] \n\t    [[} Insurgio 22|I-22 links]]\n\t    [[TPF GenAI Rush notes|TPF GenAI]]\n1. books\n\t1. \n2. videos","x":-219,"y":-540,"width":239,"height":365},
-		{"id":"b275e122946f9cd7","type":"text","text":"Side Projects: \n- ideas\n\t- \n- in-progress\n- stalled\n- completed","x":100,"y":-300,"width":280,"height":158}
-	],
-	"edges":[]
-}
